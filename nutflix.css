@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     /* background-image: linear-gradient(to right top, #442740, #442d4b, #413457, #3b3b61, #32436b, #36436b, #39446a, #3c446a, #483e5f, #4e3853, #503547, #4e323d); */
+     background:#222;
+     font-family: 'Ubuntu', sans-serif;
+     position: relative;
+}
+
+/* HEADING */
+h1{
+  font-size: 3rem;
+  margin-left: 30px;
+  color: #E50914;
+
+}
+
+.row{
+  display: flex;
+  justify-content:  space-between;
+}
+h3{
+  text-align: center;
+  margin-right: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+/* Center */
+h2{
+  color: white;
+  font-size: 3rem;
+}
+.mainhead{
+  text-align: center;
+  margin-top: 10%;
+}
+.small{
+  font-size: 20px;
+}
+
+/* arrow */
+.arrow{
+  text-align: center;
+  margin-top: 13%;
+  margin-bottom: 10%;
+}
+
+/* MOVIES SECTION  */
+.wrap{
+  margin: 0 3% 5%;
+  color: white;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all .4s ease;
+   -moz-transition: all .4s ease;
+   transition: all .4s ease;
+}
+a:hover{
+  font-size: 1.5rem; color: yellow;
+}
+
+
+/* Footer */
+footer{
+  background-color: #3a4750;
+  padding: 30px 20px 30px;
+  text-align: center;
+}
+.foot{
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+.foot:hover{
+  font-size: 2rem;
+}
